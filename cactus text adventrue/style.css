@@ -1,0 +1,32 @@
+body {
+     background:linear-gradient(white, #FADB3B);
+     text-align:center;
+     font-size:155%;
+     margin: 0;
+}
+
+h2 {
+ background-color:#FADB3B;
+}
+
+.TYPE{
+  font-family:Courier;
+  overflow: hidden; 
+  white-space: nowrap; 
+  margin: 0 auto; 
+  letter-spacing: .10em;
+  line-height: 1.6;
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret 10s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+.IMG {
+height:300px;
+width:300px;
+}
